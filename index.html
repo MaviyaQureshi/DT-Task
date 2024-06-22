@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar start -->
+    <header class="NavBar">
+        <img src="https://deepthought.education/assets/images/logo/logo.svg" alt="">
+        <div class="Icons">
+            <button class="nav-icons" id="home">
+                <img src="icons/Home.svg" alt="">
+            </button>
+            <button class="nav-icons" id="tools">
+                <img src="icons/Tools.svg" alt="">
+            </button>
+            <button class="nav-icons" id="notification">
+                <img src="icons/Notification.svg" alt="">
+            </button>
+            <button class="nav-icons" id="profile">
+                <img src="icons/Profile.svg" alt="">
+            </button>
+            <button class="nav-icons" id="more">
+                <img src="icons/More.svg" alt="">
+            </button>
+        </div>
+    </header>
+    <!-- Navbar end -->
+
+
+    <!-- Body start -->
+    <main>
+
+        <!-- Section 1 -->
+        <div class="body-1">
+            <span class="title">Technical Project Management</span>
+            <button class="submit">
+                Submit task
+            </button>
+        </div>
+
+        <!-- Section 2 -->
+        <div class="body-2">
+            <div class="body-2-title" id="body-2-title"></div>
+            <div class="body-2-content" id="body-2-content"></div>
+        </div>
+
+        <!-- Section 3 -->
+        <div class="body-3">
+            <!-- Set 1 -->
+            <div class="set-1">
+                <!-- Card 1 -->
+                <div class="card-1" id="card-1">
+                    <div class="card-title">
+                        <span id="1-title"></span>
+                        <button>
+                            <img src="./icons/info.svg" alt="">
+                        </button>
+                    </div>
+                    <span class="description" id="description-1"></span>
+                    <iframe src="" height="300" frameborder="0" id="Frame"></iframe>
+                </div>
+                <!-- Card 1 End -->
+
+
+                <!-- Card 2 -->
+                <div class="card-2">
+                    <div class="card-2-title">
+                        <span id="2-title"></span>
+                        <button class="info">
+                            <img src="./icons/info.svg" alt="">
+                        </button>
+                    </div>
+                    <span class="description" id="description-2"></span>
+                    <span class="card-2-thread">
+                        <img src="./icons/chevron-up.svg" alt="">
+                        <b>
+                            Thread A
+                        </b>
+                    </span>
+                    <div class="class">
+                        <div class="sub-content">
+                            <div class="sub-thread-1">
+                                <span>Sub thread 1</span>
+                                <textarea class="input-area" placeholder="Enter Text here"></textarea>
+                            </div>
+                            <div class="sub-interpretation-1">
+                                <span>Sub interpretation 1</span>
+                                <textarea class="input-area" placeholder="Enter Text here"></textarea>
+                            </div>
+                        </div>
+                        <div class="options">
+                            <div class="option-icons">
+                                <button>
+                                    <img src="./icons/bulb.svg" alt="">
+                                </button>
+                                <button>
+                                    <img src="./icons/message.svg" alt="">
+                                </button>
+                                <button>
+                                    <img src="./icons/query.svg" alt="">
+                                </button>
+                                <button>
+                                    <img src="./icons/idk.svg" alt="">
+                                </button>
+                            </div>
+                            <div class="drop-downs">
+                                <div class="drops1">
+                                    <span>Select Categ</span>
+                                    <img src="./icons/chevron-down.svg" alt="">
+                                </div>
+                                <div class="drops2">
+                                    <span>Select Proces</span>
+                                    <img src="./icons/chevron-down.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <button class="new-sub-thread">
+                            <img src="./icons/plus.svg" alt="">
+                            <span>Sub-thread</span>
+                        </button>
+                        <div class="summary-thread">
+                            <span>
+                                Summary for Thread A
+                            </span>
+                            <textarea type="input-area" placeholder="Enter Text Here"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 End -->
+        </div>
+        <!-- Set 1 End -->
+
+
+        <!-- Set 2 -->
+        <div class="set-2">
+            <!-- Card 3 -->
+            <div class="card-3">
+                <div class="card-3-title">
+                    <span id="3-title"></span>
+                    <button>
+                        <img src="./icons/info.svg" alt="">
+                    </button>
+                </div>
+                <span class="description" id="description-3"></span>
+                <div class="card-3-content">
+                    <div class="title-section">
+                        <b>Title</b>
+                        <input type="text" name="" id="">
+                    </div>
+                    <div class="content-section">
+                        <b>Content</b>
+                        <div class="quill-editor">
+                            <div class="quill-accessibility">
+                                <button class="quill-btn">File</button>
+                                <button class="quill-btn">Edit</button>
+                                <button class="quill-btn">View</button>
+                                <button class="quill-btn">Insert</button>
+                                <button class="quill-btn">Format</button>
+                                <button class="quill-btn">Tools</button>
+                                <button class="quill-btn">Table</button>
+                                <button class="quill-btn">Help</button>
+                            </div>
+                            <div class="quill-options">
+                                <button class="quill-btn">
+                                    <img src="./icons/arrow-curve-left-right.svg" alt="">
+                                </button>
+                                <button class="quill-btn">
+                                    <img src="./icons/arrow-curve-left-down.svg" alt="">
+                                </button>
+                                <button class="quill-btn">
+                                    <img src="./icons/arrow-expand-02.svg" alt="">
+                                </button>
+                                <button class="paragraph-btn">
+                                    Paragraph
+                                </button>
+                                <button class="quill-btn">
+                                    <img src="./icons/More-horizontal.svg" alt="">
+                                </button>
+                            </div>
+                        </div>
+                        <textarea class="input-area"></textarea>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 End -->
+
+
+            <!-- Card 4 -->
+            <div class="card-4">
+                <div class="card-4-title">
+                    <span id="4-title"></span>
+                    <button class="info">
+                        <img src="./icons/info.svg" alt="">
+                    </button>
+                </div>
+                <span class="description" id="description-4">
+
+                </span>
+                <iframe src="" style="margin-top: 3rem;" height="300" frameborder="0" id="card-4-content"></iframe>
+            </div>
+        </div>
+        </div>
+        <!-- Card 4 End -->
+        </div>
+        <!-- Set 2 End -->
+
+
+        <!-- Journey Board -->
+        <div class="journey-board">
+            <div class="journey-board-collapsed-title"></div>
+            <div class="journey-board-title">Journey Board</div>
+            <img src="./icons/journey.svg" alt="">
+            <ul class="list">
+                <li class="imp-list">Explore the world of management</li>
+                <li>Technical Project Management</li>
+                <li>Threadbuild</li>
+                <li>Structure your pointers</li>
+                <li>4SA Method</li>
+            </ul>
+        </div>
+
+        <!-- Notice Board -->
+        <div class="notice-board">
+            <div class="notice-board-title">
+                <button>
+                    <img src="./icons/x-01.svg" alt="">
+                </button>
+                <div class="name">
+                    <span>N</span>
+                    <span>o</span>
+                    <span>t</span>
+                    <span>i</span>
+                    <span>c</span>
+                    <span>e</span>
+                    <span class="B">B</span>
+                    <span>o</span>
+                    <span>a</span>
+                    <span>r</span>
+                    <span>d</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-icons">
+            <button>
+                <img src="./icons/QuestionMark.svg" alt="">
+            </button>
+            <button>
+                <img src="./icons/Meeting.svg" alt="">
+            </button>
+            <button>
+                <img src="./icons/Schedule.svg" alt="">
+            </button>
+        </div>
+    </main>
+    <!-- Body end -->
+
+
+
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
